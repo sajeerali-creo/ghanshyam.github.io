@@ -1,0 +1,92 @@
+.mobile-header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--white);
+    img{
+        height: 40px;
+    }
+}
+
+.offcanvas{
+    background-color: #d8cbb7;
+    .offcanvas-body{
+        ul{
+            li{
+                a{
+                    display: block;
+                    padding: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.main-header{
+    .logo{
+        height: 80px;
+    }
+    ul{
+        display: flex;
+        li{
+            a{
+                display: flex;
+                padding: 0px 24px;
+                border-right: 2px solid var(--primary);
+                transition: all 0.3s ease-out;
+                &:hover{
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+}
+
+
+.main-header ul li:last-child{
+    a{
+        border-right: none;
+    }
+}
+
+.title-box{
+    background-color: var(--green);
+    height: 60px;
+    width: auto;
+    padding: 0px 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    margin: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .title-box{
+        position: absolute;
+        text-align: left;
+        left: 0px;
+        top: 100px;
+        background-color: var(--green);
+        height: 60px;
+        width: auto;
+        padding: 0px 48px;
+        display: flex;
+        align-items: center;
+        border-radius: 0px 35px 35px 0px;
+        margin: 0px;
+        &::after{
+            content: '';
+            width: 80px;
+            height: 80px;
+            background-image: url(../img/leafe.svg);
+            background-size: contain;
+            position: absolute;
+            right: -30px;
+            top: -30px;
+            background-repeat: no-repeat;
+        }
+    }   
+}
