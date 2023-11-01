@@ -22,6 +22,24 @@ li {
   padding: 0;
 }
 
+.form-control-lg {
+  font-size: 14px;
+  height: 50px;
+  border: 1px solid #e1e1e1;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.bullete {
+  padding-left: 15px;
+}
+.bullete li {
+  list-style-type: disc;
+  padding-bottom: 16px;
+}
+
 .btn-menu {
   background-color: var(--primary);
   color: var(--white);
@@ -68,6 +86,29 @@ li {
     transform: translate(-50%, -50%);
   }
 }
+.icon-round {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 160px;
+  background-color: var(--primary);
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+}
+.icon-round i {
+  color: var(--white);
+  margin: 0px !important;
+}
+
+.btn {
+  border: none;
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 600;
+  height: 60px;
+}
+
 .mobile-header {
   position: fixed;
   z-index: 1;
@@ -101,6 +142,9 @@ li {
 }
 .main-header ul li a:hover {
   color: var(--primary);
+}
+.main-header ul li .active {
+  color: var(--primary) !important;
 }
 
 .main-header ul li:last-child a {
@@ -155,6 +199,22 @@ footer {
   z-index: 9;
 }
 
+.padding-top {
+  padding-top: 50px;
+}
+
+.padding-bottom {
+  padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .padding-top {
+    padding-top: 150px;
+  }
+  .padding-bottom {
+    padding-bottom: 150px;
+  }
+}
 .h1 {
   font-size: 48px;
 }
@@ -193,6 +253,26 @@ footer {
 
 .text-primary2 {
   color: var(--primary);
+}
+
+.bg-whatsap {
+  background-color: #25D366 !important;
+}
+
+.bg-fb {
+  background-color: #4267B2 !important;
+}
+
+.bg-insta {
+  background-color: #C13584 !important;
+}
+
+.bg-x {
+  background-color: #000 !important;
+}
+
+.bg-linkedin {
+  background-color: #0a66c2 !important;
 }
 
 .hero {
@@ -286,6 +366,29 @@ footer {
 .box-mission p {
   width: 260px;
   margin: 0px auto;
+}
+
+.ct-contnet .h2 {
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  .ct-contnet .h2 {
+    font-size: 24px;
+  }
+}
+.gift-box {
+  width: 100%;
+  height: 400px;
+  background-color: #e1e1e1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.gift-box img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .border-radius-1 {
