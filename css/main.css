@@ -391,6 +391,31 @@ footer {
      object-fit: cover;
 }
 
+.blgs-quot {
+  position: relative;
+  padding: 24px 38px;
+  border-top: 1px solid var(--primary);
+}
+.blgs-quot::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/Vector2.svg);
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.blgs-quot::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/Vector.svg);
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+}
+
 .border-radius-1 {
   border-radius: 1px;
 }
