@@ -1,4 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Bold.woff') format('woff'),
+        url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Grand';
+    src: url('../fonts/Agrandir-GrandHeavy.woff2') format('woff2'),
+        url('../fonts/Agrandir-GrandHeavy.woff') format('woff'),
+        url('../fonts/Agrandir-GrandHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir-TextBold.woff2') format('woff2'),
+        url('../fonts/Agrandir-TextBold.woff') format('woff'),
+        url('../fonts/Agrandir-TextBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 .h1 {
     font-size: 48px;
@@ -6,6 +48,7 @@
 
 .h2 {
     font-size: 24px;
+    font-family: 'Agrandir';
 }
 
 .h3 {
@@ -14,6 +57,7 @@
 
 .h4 {
     font-size: 18px;
+    font-family: 'Agrandir';
 }
 
 .h5 {
@@ -26,4 +70,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5rem;
+}
+p{
+    font-family: 'Myriad Pro';
 }
