@@ -1,0 +1,23 @@
+.carousel-item{
+    min-height: auto;
+    background-color: #000;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1!important;
+    font-size: 40px!important;
+    color: #b7a37c!important;
+}
+
+.slide{
+    padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+    .slide{
+        padding-top: 0px;
+    } 
+}

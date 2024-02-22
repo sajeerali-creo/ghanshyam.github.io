@@ -81,7 +81,7 @@ li {
     position: fixed;
     bottom: inherit;
     top: 50%;
-    right: 100px;
+    right: 30px;
     left: inherit;
     transform: translate(-50%, -50%);
   }
@@ -276,6 +276,7 @@ li {
   width: 200px;
   left: 0;
   position: absolute;
+  z-index: 1;
 }
 
 .tutorial ul li:hover ul li {
@@ -606,6 +607,31 @@ p {
      object-fit: cover;
 }
 
+.carousel-item {
+  min-height: auto;
+  background-color: #000;
+}
+.carousel-item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1 !important;
+  font-size: 40px !important;
+  color: #b7a37c !important;
+}
+
+.slide {
+  padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+  .slide {
+    padding-top: 0px;
+  }
+}
 .border-radius-1 {
   border-radius: 1px;
 }
