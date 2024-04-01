@@ -322,14 +322,6 @@ footer {
   padding-bottom: 50px;
 }
 
-@media (min-width: 992px) {
-  .padding-top {
-    padding-top: 150px;
-  }
-  .padding-bottom {
-    padding-bottom: 150px;
-  }
-}
 @font-face {
   font-family: "Myriad Pro";
   src: url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype");
