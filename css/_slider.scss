@@ -12,12 +12,12 @@
     color: #b7a37c!important;
 }
 
-.slide{
-    padding-top: 100px;
-}
-
 @media (min-width: 992px) {
     .slide{
         padding-top: 0px;
     } 
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background: #0000004d!important;
+    border-radius: 160px!important;
 }
